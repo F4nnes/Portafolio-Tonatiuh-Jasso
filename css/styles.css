@@ -264,6 +264,11 @@ a{
     font-weight: 800;
 }
 
+/* idiomas */
+.idiomas{
+    display: flex;
+}
+
 /* Resumen de conocimiento tecnico */
 .about-conocimiento{
     border: 2px solid burlywood;
