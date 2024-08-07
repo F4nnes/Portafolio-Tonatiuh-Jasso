@@ -195,6 +195,10 @@ a{
 .about{
     border: 2px solid lightseagreen;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 600px;
     box-sizing: border-box;
@@ -210,7 +214,7 @@ a{
     width: 590px;
     height: fit-content;
     gap: 20px;
-    margin-left: 75px;
+    
     /* margin-top: 40px; */
 }
 
@@ -246,10 +250,19 @@ a{
     color: var(--color-texto-primario);
     font-family: var(--fuente-texto-texto);
     font-size: 20px;
+    gap: 20px;
 }
 
+.educacion-titulo{
+    font-family: var(--fuente-texto-titulo);
+    color: var(--color-texto-resaltado);
+    font-size: 24px;
+    font-weight: 600;
+}
 
-
+.institucion{
+    font-weight: 800;
+}
 
 /* Resumen de conocimiento tecnico */
 .about-conocimiento{
