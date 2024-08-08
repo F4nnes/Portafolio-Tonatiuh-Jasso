@@ -337,7 +337,7 @@ a{
 
 /* Resumen de conocimiento tecnico */
 .about-conocimiento{
-    border: 2px solid burlywood;
+    /* border: 2px solid burlywood; */
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -396,3 +396,10 @@ a{
     width: 50px;
 }
 
+
+.proyectos{
+    border: 2px solid orange;
+    display: flex;
+    width: auto;
+    height: 600px;
+}
