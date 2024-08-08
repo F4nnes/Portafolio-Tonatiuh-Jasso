@@ -45,8 +45,8 @@ a{
     width: auto;
     height: 70px;
     align-content: center;
-    /* position: sticky;
-    top: 0; */
+    /* position: sticky; */
+    /* top: 0; */
 
 }
 
@@ -203,12 +203,12 @@ a{
     height: 600px;
     box-sizing: border-box;
     gap: 30px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 /* Resumen de experiencia */
 .about-experiencia{
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     display: flex;
     flex-direction: column;
     width: 590px;
@@ -225,11 +225,11 @@ a{
 }
 
 .experiencia-resumen{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 7px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .resumen-texto{
@@ -237,13 +237,14 @@ a{
     flex-direction: column;
     color: var(--color-texto-primario);
     font-family: var(--fuente-texto-texto);
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 22px;
     font-weight: 300;
 }
 
 /* Habilidades */
 .personal-skills{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-evenly;
     /* flex-direction: column; */
@@ -284,8 +285,54 @@ a{
 
 .lenguaje-info{
     font-family: var(--fuente-texto-texto);
+}
 
+/* Hobbies */
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-texto-primario);
+    gap: 30px;
+}
 
+.aficiones{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aficion-titulo{
+    font-family: var(--fuente-texto-titulo);
+    font-size: 24px;
+    color: var(--color-texto-primario);
+    font-weight: 600;
+}
+
+.aficion-info{
+    font-family: var(--fuente-texto-texto);
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.habilidad-titulo{
+    font-family: var(--fuente-texto-titulo);
+    font-size: 24px;
+    color: var(--color-texto-resaltado);
+    font-weight: 600;
+}
+
+.habilidad-info{
+    font-family: var(--fuente-texto-texto);
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 15px;
 }
 
 /* Resumen de conocimiento tecnico */
