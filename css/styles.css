@@ -414,7 +414,7 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #d9d9d92f;
-    width: 400px;
+    width: 350px;
     border-radius: 20px;
     height: fit-content;
     display: flex;
@@ -426,14 +426,14 @@ a{
 
 .proyecto-titulo{
     font-family: var(--fuente-texto-titulo);
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     color: var(--color-texto-resaltado);
 }
 
 .proyecto-resumen{
     font-family: var(--fuente-texto-texto);
-    font-size: 24px;
+    font-size: 22px;
     color: var(--color-texto-primario);
 }
 
@@ -444,27 +444,35 @@ a{
 }
 
 .repositorio{
-    width: 200px;
-    height: 70px;
+    width: 180px;
+    height: 60px;
     background-color: #d9d9d9;
     border-radius: 20px;
     border-style: none;
     box-shadow: 8px 8px 15px var(--color-fondo-navegacion);
     font-family: var(--fuente-texto-titulo);
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--color-fondo-body);
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    
 }
 
 .demo{
-    width: 200px;
-    height: 70px;
+    width: 180px;
+    height: 60px;
     background-color: #27dec0a9;
     border-radius: 20px;
     border-style: none;
     box-shadow: 8px 8px 15px var(--color-fondo-navegacion);
     font-family: var(--fuente-texto-titulo);
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--color-texto-primario);
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    
 }
