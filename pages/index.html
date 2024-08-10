@@ -265,22 +265,25 @@
                 <p class="contacto-indicación">Completa el siguiente formulario para ponernos en contacto</p>
             </div>
 
-            <form class="formulario">
-                <label for="nombre">Nombre</label>
-                <input type="text">
+            <div class="acomodo-formulario">
+                <form class="formulario" data-formulario>
 
-                <label for="email">Email</label>
-                <input type="email">
+                    <input class="form-contacto-input" id="nombre" type="text" name="nombre" placeholder="Nombre" style="border: none;" required>
+                    <input class="form-contacto-input" id="email" type="email" name="email" placeholder="E-mail" style="border: none;" required>
+                    <input class="form-contacto-input" id="asunto" type="text" name="asunto" placeholder="Asunto" style="border: none;" required>
+                    <textarea class="form-contacto-input-textarea" id="mensaje" rows="5" cols="40" id="mensage"
+                        name="mensaje" placeholder="Mensaje" maxlength="300" required></textarea>
 
-                <label for="asunto">Asunto</label>
-                <input type="text">
+                </form>
 
-                <label for="mensaje">Mensaje</label>
-                <textarea name="" id="" style="border: none;"></textarea>
+                <div class="seccion-boton">
+                    <button type="submit" id="enviar" class="form-contacto-boton" data-boton-enviar="">Enviar</button>
+                </div>
+            </div>
 
-                <button type="submit">Enviar</button>
-            </form>
-            
+
+
+
         </div>
 
 
