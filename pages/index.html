@@ -268,9 +268,12 @@
             <div class="acomodo-formulario">
                 <form class="formulario" data-formulario>
 
-                    <input class="form-contacto-input" id="nombre" type="text" name="nombre" placeholder="Nombre" style="border: none;" required>
-                    <input class="form-contacto-input" id="email" type="email" name="email" placeholder="E-mail" style="border: none;" required>
-                    <input class="form-contacto-input" id="asunto" type="text" name="asunto" placeholder="Asunto" style="border: none;" required>
+                    <input class="form-contacto-input" id="nombre" type="text" name="nombre" placeholder="Nombre"
+                        style="border: none;" required>
+                    <input class="form-contacto-input" id="email" type="email" name="email" placeholder="E-mail"
+                        style="border: none;" required>
+                    <input class="form-contacto-input" id="asunto" type="text" name="asunto" placeholder="Asunto"
+                        style="border: none;" required>
                     <textarea class="form-contacto-input-textarea" id="mensaje" rows="5" cols="40" id="mensage"
                         name="mensaje" placeholder="Mensaje" maxlength="300" required></textarea>
 
@@ -284,16 +287,18 @@
 
         </div>
 
+
+
     </section>
 
-    <section>
-        <dialog open>
-            <p>¡Su mensaje ha sido enviado!</p>
+    <div class="modal-sección">
+        <dialog open class="modal">
+            <p class="modal-mensaje">¡Su mensaje ha sido enviado!</p>
             <form method="dialog">
-              <button>Cerrar</button>
+                <button class="modal-cerrar">Cerrar</button>
             </form>
-          </dialog>
-    </section>
+        </dialog>
+    </div>
 
 
 
