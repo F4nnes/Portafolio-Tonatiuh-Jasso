@@ -41,12 +41,14 @@ a {
 
 /* Barra de Navegacion */
 .header {
+    display: flex;
+    align-items: center;
     background-color: var(--color-fondo-navegacion);
     width: auto;
-    height: 70px;
-    align-content: center;
-    /* position: sticky; */
-    /* top: 0; */
+    height: 50px;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -54,7 +56,6 @@ a {
     /* border: 2px solid yellow; */
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     padding-right: 50px;
     gap: 75px;
     color: var(--color-texto-primario);
