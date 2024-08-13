@@ -58,9 +58,19 @@ a {
     flex-direction: row;
     padding-right: 50px;
     gap: 75px;
+}
+
+.menu_list_item{
+    /* border: 2px solid yellow; */
+    font-weight: 600;
     color: var(--color-texto-primario);
     font-family: var(--fuente-texto-texto);
 }
+
+.menu_list_item:hover{
+    color: var(--color-texto-resaltado);
+}
+
 
 /* Links de contacto */
 .contenedor-presentacion {
