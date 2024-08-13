@@ -22,6 +22,10 @@ a {
     color: var(--color-texto-primario);
 }
 
+*{
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-texto-resaltado) var(--color-fondo-navegacion);
+}
 
 /* Tipografias */
 /* <uniquifier>: Use a unique and descriptive class name
