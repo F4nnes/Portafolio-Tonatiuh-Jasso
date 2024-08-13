@@ -22,13 +22,6 @@ a {
     color: var(--color-texto-primario);
 }
 
-/* ion-icon{
-   display: inline-block;
-   z-index: -1;
-   position: relative;
-    
-
-} */
 
 /* Tipografias */
 /* <uniquifier>: Use a unique and descriptive class name
@@ -75,6 +68,11 @@ a {
     font-weight: 600;
     color: var(--color-texto-primario);
     font-family: var(--fuente-texto-texto);
+}
+
+
+.menu_list_item.active{
+    color: var(--color-texto-resaltado);
 }
 
 .menu_list_item:hover{
