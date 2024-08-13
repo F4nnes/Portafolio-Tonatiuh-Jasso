@@ -98,3 +98,5 @@ const handleScroll = debounce(() => {
 }, 100);
 
 window.addEventListener('scroll', throttle(handleScroll, 200));
+
+// Validacion de formulario 
