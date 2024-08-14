@@ -20,6 +20,10 @@ export const mensajes = {
     asunto: {
         valueMissing: "El campo identificación no puede estar vacío.",
         patternMismatch: "Por favor, ingrese un titulo sobre su asunto.",
-        tooShort: "El campo no tiene caracteres suficientes.",
+        tooShort: "El campo no tiene carácteres suficientes.",
     },
+    mensaje: {
+        valueMissing: "El campo mensaje no puede estar vacío.",
+        tooShort: "El campo no tiene carácteres suficientes",
+    }
 };
