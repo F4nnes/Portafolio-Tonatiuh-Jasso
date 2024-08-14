@@ -271,14 +271,14 @@
             <div class="acomodo-formulario">
                 <form class="formulario" data-formulario>
 
-                    <input class="form-contacto-input" id="nombre" type="text" name="nombre" placeholder="Nombre"
+                    <input class="form-contacto-input" id="nombre" type="text" name="nombre" minlength="3" placeholder="Nombre"
                         style="border: none;" required>
-                    <input class="form-contacto-input" id="email" type="email" name="email" placeholder="E-mail"
+                    <input class="form-contacto-input" id="email" type="email" name="email" minlength="5" placeholder="E-mail"
                         style="border: none;" required>
-                    <input class="form-contacto-input" id="asunto" type="text" name="asunto" placeholder="Asunto"
+                    <input class="form-contacto-input" id="asunto" type="text" name="asunto" minlength="3" placeholder="Asunto"
                         style="border: none;" required>
                     <textarea class="form-contacto-input-textarea" id="mensaje" rows="5" cols="40" id="mensage"
-                        name="mensaje" placeholder="Mensaje" maxlength="300" required></textarea>
+                        name="mensaje" placeholder="Mensaje" maxlength="150" required></textarea>
 
                 </form>
 
@@ -314,6 +314,7 @@
 
     <!-- Script Javascript -->
     <script src="/js/main.js"></script>
+    <script src="/js/validacionFormulario.js"></script>
 
 </body>
 
