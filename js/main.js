@@ -2,8 +2,8 @@
 const itemHeader = document.querySelectorAll('.menu_list_item');
 const sections = document.querySelectorAll('[id]');
 
-// exportaciones
-import { tiposError, mensajes } from "./customError";
+// // exportaciones
+// import { tiposError, mensajes } from "./customError";
 
 // Variable para almacenar el último ID de sección seleccionada
 let lastSectionId = null;
@@ -102,19 +102,19 @@ const handleScroll = debounce(() => {
 
 window.addEventListener('scroll', throttle(handleScroll, 200));
 
-// Validacion de formulario 
+// // Validacion de formulario 
 
-const camposDeFormulario = document.querySelectorAll("[required]");
-const formulario = document.querySelector("[data-formulario]");
+// const camposDeFormulario = document.querySelectorAll("[required]");
+// const formulario = document.querySelector("[data-formulario]");
 
-formulario.addEventListener("submit", (e)=>{
-    e.preventDefault();
-    const listaRespuestas = {
-        nombre: e.target.elements ["nombre"].value,
-        email: e.target.elements ["email"].value,
-        asunto: e.target.elements ["asunto"].value,
-        mensaje: e.target.elements ["mensaje"].value,
-    }
-    localStorage.setItem("registro", JSON.stringify(lista))
+// formulario.addEventListener("submit", (e)=>{
+//     e.preventDefault();
+//     const listaRespuestas = {
+//         nombre: e.target.elements ["nombre"].value,
+//         email: e.target.elements ["email"].value,
+//         asunto: e.target.elements ["asunto"].value,
+//         mensaje: e.target.elements ["mensaje"].value,
+//     }
+//     localStorage.setItem("registro", JSON.stringify(lista))
     
-})
+// })
