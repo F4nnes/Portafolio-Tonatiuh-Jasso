@@ -86,7 +86,7 @@ a {
 
 /* Links de contacto */
 .contenedor-presentacion {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
@@ -217,7 +217,7 @@ a {
 /* Sección sobre mi */
 
 .about {
-    border: 2px solid lightseagreen;
+    /* border: 2px solid lightseagreen; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -315,6 +315,7 @@ a {
 
 /* Hobbies */
 .hobbies {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     color: var(--color-texto-primario);
@@ -554,7 +555,51 @@ a {
     }
 
     /* sobre mi */
-    
+    .about{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 50px;
+    }
 
+    .hobbies{
+        display: flex;
+        flex-direction: row;
+    }
 
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 30px;
+    }
+
+    .preview-img {
+        width: 600px;
+    }
+
+    .proyecto-info{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .proyecto-botones{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px){
+    .header{
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+
+    .menu_list{
+       display: flex;
+       flex-direction: row;
+       padding-right: 0;
+    }
 }
