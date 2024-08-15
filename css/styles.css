@@ -86,7 +86,7 @@ a {
 
 /* Links de contacto */
 .contenedor-presentacion {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
@@ -103,7 +103,7 @@ a {
 }
 
 .links-sociales {
-    /* border: 2px solid rebeccapurple; */
+    border: 2px solid rebeccapurple;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -592,14 +592,47 @@ a {
 
 @media (min-width:320px) and (max-width:425px){
     .header{
+        border: 2px solid red;
         display: flex;
-        width: auto;
-        justify-content: center;
+        width: 100%;
+        position: inherit;
     }
 
     .menu_list{
        display: flex;
        flex-direction: row;
-       padding-right: 0;
+       justify-content: space-evenly;
+       
     }
+    
+    .contenedor-presentacion{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        box-sizing: border-box;
+        width: auto;
+        height: fit-content;
+
+    }
+    
+    .links-sociales{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .imagen{
+        display: none;
+    }
+
+    .informacion{
+        width: auto;
+        gap: 30px;
+    }
+
+    .nombre{
+        font-size: 20px;
+    }
+
+
 }
