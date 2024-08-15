@@ -627,11 +627,10 @@ a {
 
     .informacion{
         display: flex;
+        text-align: center;
         width: 425px;
         gap: 30px;
-        align-items: center;
     }
-        
 
     .nombre{
         font-size: 20px;
@@ -643,9 +642,17 @@ a {
         margin: none;
     }
 
+    .sub-profesion{
+        margin: 0;
+    }
+
+    .extra{
+        margin-left: 0;
+    }
+
     .resumen {
         width: fit-content;
-        margin: none;
+        margin: 0;
     
     }
 
