@@ -122,7 +122,7 @@ a {
 .informacion {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid yellowgreen; */
+    border: 2px solid yellowgreen;
     width: 700px;
     gap: 80px;
 }
@@ -626,12 +626,27 @@ a {
     }
 
     .informacion{
-        width: auto;
+        display: flex;
+        width: 425px;
         gap: 30px;
+        align-items: center;
     }
+        
 
     .nombre{
         font-size: 20px;
+        margin: none;
+    }
+
+    .profesion {
+        font-size: 30px;
+        margin: none;
+    }
+
+    .resumen {
+        width: fit-content;
+        margin: none;
+    
     }
 
 
