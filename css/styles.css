@@ -142,21 +142,6 @@ a {
     color: var(--color-texto-primario);
 }
 
-.extra {
-    font-family: var(--fuente-texto-texto);
-    margin-left: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--color-texto-primario);
-}
-
-.sub-profesion {
-    font-family: var(--fuente-texto-titulo);
-    font-size: 36px;
-    font-weight: bold;
-    margin-left: 20px;
-    color: var(--color-texto-primario);
-}
 
 .resumen {
     /* border: 2px solid red; */
@@ -542,9 +527,6 @@ a {
         font-size: 50px;
     }
 
-    .sub-profesion {
-        font-size: 30px;
-    }
 
     .descargar{
         width: 180px;
@@ -643,14 +625,6 @@ a {
         margin: none;
     }
 
-    .sub-profesion{
-        margin: 0;
-        font-size: 24px;
-    }
-
-    .extra{
-        margin-left: 0;
-    }
 
     .resumen {
         width: fit-content;
